@@ -9,8 +9,15 @@ header {
 width:100%;
 background-color: rgb(5, 5, 5);
 }
+  header h2 { 
+ color:  rgb(253, 252, 252);
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+text-align: center;
+
+}
 .nav{
-    justify-content: space-around;
+    
     display: flex;
 }
 
