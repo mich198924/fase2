@@ -1,0 +1,53 @@
+·m
+body {
+margin: auto;
+font-family: 'Times New Roman', Times, serif ;
+padding: 0%;
+}
+
+header {
+width:100%;
+background-color: rgb(5, 5, 5);
+}
+.nav{
+    justify-content: space-around;
+    display: flex;
+}
+
+.menu ul {
+margin: 15px 20pxs;
+list-style-type: none;
+padding:12px 20px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.menu li a {
+display: block;
+padding: 12px 20px;
+color: rgb(253, 253, 252);
+text-decoration: none;
+font-size-adjust: 20px;
+}
+
+a:hover {
+background-color: rgb(255, 0, 0);
+}
+
+.menu ul li  {
+    position: relative;
+}
+
+.menu ul li ul  {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color:rgb(5, 5, 5);
+    top: 0;
+    margin-left: 50px;
+}   
+
+.menu ul li:hover > ul {
+display: block;
+}
